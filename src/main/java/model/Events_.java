@@ -7,6 +7,10 @@ public class Events_ {
 	private String state;
 	
 	
+	public Events_() {
+
+	}
+
 	public Events_(String code, String name, String type, String state) {
 		this.code = code;
 		this.name = name;

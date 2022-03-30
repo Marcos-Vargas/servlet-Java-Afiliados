@@ -5,7 +5,9 @@ public class Team_affiliates {
 	private String codeTeam;
 	private String codeAffiliate;
 	
-	
+	public Team_affiliates() {
+		super();
+	}
 	public String getCodeTeam() {
 		return codeTeam;
 	}
@@ -18,6 +20,8 @@ public class Team_affiliates {
 	public void setCodeAffiliate(String codeAffiliate) {
 		this.codeAffiliate = codeAffiliate;
 	}
+	
+	
 	
 	
 

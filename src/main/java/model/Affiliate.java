@@ -1,6 +1,6 @@
 package model;
 
-public class Affiliates {
+public class Affiliate {
 	private String firstName;
 	private String lastName;
 	private String id;
@@ -8,7 +8,12 @@ public class Affiliates {
 	private String state;
 	private String phone;
 	
-	public Affiliates(String firstName, String lastName, String id, String birthday, String state, String phone) {
+	
+	public Affiliate() {
+		super();
+	}
+
+	public Affiliate(String firstName, String lastName, String id, String birthday, String state, String phone) {
 		this.firstName = firstName;
 		this.lastName = lastName;
 		this.id = id;
