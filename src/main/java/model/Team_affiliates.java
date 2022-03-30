@@ -5,6 +5,7 @@ public class Team_affiliates {
 	private String codeTeam;
 	private String codeAffiliate;
 	
+
 	public Team_affiliates() {
 		super();
 	}

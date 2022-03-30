@@ -7,6 +7,10 @@ public class Results {
 	private String ranking;
 	
 	
+	public Results() {
+		super();
+	}
+
 	public Results(String codeEvent, String codeParticipant, String ranking) {
 		super();
 		this.codeEvent = codeEvent;

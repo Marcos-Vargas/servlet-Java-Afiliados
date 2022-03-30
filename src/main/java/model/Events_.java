@@ -1,6 +1,8 @@
 package model;
 
 public class Events_ {
+	
+	
 	private String code;
 	private String name;
 	private String codDiscipline;
@@ -38,12 +40,12 @@ public class Events_ {
 	}
 
 
-	public String getType() {
+	public String getCodDiscipline() {
 		return codDiscipline;
 	}
 
 
-	public void setType(String type) {
+	public void setCodDiscipline(String type) {
 		this.codDiscipline = type;
 	}
 
@@ -56,6 +58,14 @@ public class Events_ {
 	public void setState(String state) {
 		this.state = state;
 	}
+
+	@Override
+	public String toString() {
+		return "Events_ [code=" + code + ", name=" + name + ", codDiscipline=" + codDiscipline + ", state=" + state
+				+ "]";
+	}
+	
+	
 	
 	
 	

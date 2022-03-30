@@ -6,6 +6,10 @@ public class Events_T_A {
 	private String codParticipante;
 	
 	
+	public Events_T_A() {
+		super();
+	}
+
 	public Events_T_A(String codeEvent, String codParticipante) {
 		super();
 		this.codeEvent = codeEvent;

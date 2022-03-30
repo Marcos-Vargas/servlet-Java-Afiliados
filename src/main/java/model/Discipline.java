@@ -3,6 +3,11 @@ package model;
 public class Discipline {
 	private String code;
 	private String name;
+	
+	
+	public Discipline() {
+		super();
+	}
 	public Discipline(String code, String name) {
 		super();
 		this.code = code;

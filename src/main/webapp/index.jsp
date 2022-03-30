@@ -66,7 +66,7 @@
         </div>
         <div class="row mt-3 mb-3  ">
             <div class="col-4 ">
-                <button type="submit" id="submitbtn1">Agregar</button>
+                <button type="submit" id="btn-add-affiliate">Agregar</button>
             </div>
             <div class="col-4">
                 <button type="submit" id="btn-delete-affiliate">Eliminar</button>
@@ -143,6 +143,12 @@
         </div>
         <div class="row">
             <div class="col col-6">
+                <label for="cod-event">Codigo de evento</label>
+                <input type="text" id="cod-event">
+            </div>
+        </div>
+        <div class="row">
+            <div class="col col-6">
                 <button id="btn-addEvent">Agregar</button>
             </div>
 
@@ -206,13 +212,13 @@
                     <option value="">Elija el evento</option>
                 </select>
             </div>
-            <div class="col col-4">
+            <div class="col col-5">
                 <label for="name-team-results">Equipo/Integrante</label>
                 <select name="" id="name-team-results">
                     <option value="">Elija el equipo/integrante</option>
                 </select>
             </div>
-            <div class="col col-4">
+            <div class="col col-3">
                 <label for="rank-team-results">Puesto</label>
                 <select name="" id="name-rank-results">
                     <option value="">Elija el puesto</option>
@@ -220,13 +226,11 @@
             </div>
 
         </div>
+        <br>
 
         <div class="row">
             <div class="col col-6">
-                <button type="button" id="btn-finish-results" > Terminar</button>
-            </div>
-            <div class="col col-6">
-                <button type="button" id="btn-assign-results" > Asginar</button>
+                <button type="button" class="btn btn-primary" id="btn-assign-results" > Asginar</button>
             </div>
         </div>
     </div>
